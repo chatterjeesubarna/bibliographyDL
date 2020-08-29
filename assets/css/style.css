@@ -1,0 +1,390 @@
+﻿/*================================
+    GENERAL STYLES
+==================================*/
+
+/*h1 { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26px; } h3 { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; } p { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; }*/
+
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond); /* GOOGLE FREE FONTS */
+
+body {
+    font-family: "EB Garamond", sans-serif;
+    font-size: 18px;
+}
+
+.zoom a:hover{
+    text-decoration: none;
+    color: #006666;
+}
+
+.zoom a{
+    text-decoration: underline;
+    color: #005151;
+}
+
+a{
+    color: #007777;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #005555;
+    text-decoration: none;
+}
+.info a:focus{
+    color: #006666;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.zoom{
+    color: #006666;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.head-set {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+/*================================
+    NAVBAR STYLES
+==================================*/
+.navbar-default {
+    /*background-color: rgba(0, 102, 102 ,0.8);*/
+    background-color: rgba(0, 102, 102 ,1.0);
+    border-color: transparent;
+}
+
+.menu-items > li > a{
+    color:#CCFFCC !important;
+    font-size: 25px;
+    font-family: "EB Garamond"
+}
+.menu-items > li > a:hover{
+    color: #006666 !important;
+    background-color: #CCFFCC !important;
+}
+
+.navbar-brand {
+    padding: 7px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#fff;
+}
+#concept{
+    padding:0px;
+}
+
+/*================================
+    HOME SECTION STYLES
+==================================*/
+
+/*STYLE OF BACKGROUND IMAGE*/
+
+
+.btn{
+    margin: 0 auto;
+}
+
+.home_entry {
+   margin-top: auto;
+}
+#home {
+    background-color: #669a9a;
+    /*background: #669a9a;*/
+    background-attachment: fixed;
+    padding: 10;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    max-height: 400px;
+    text-align: center;
+}
+
+
+
+
+    /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
+    #home .overlay {
+        padding-top: 90px;
+        background-color: rgba(153, 204, 153,0.0); /*.75 opacity of the color so that background image is visible*/
+        min-height: 900px;
+        color: #fff;
+    }
+
+    #home h1 {
+        padding-top: 80px;
+        font-weight: 900;
+        font-size: 200px;
+        font-family: 'Roboto';
+        text-align: center;
+    }
+/*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
+
+/*CLASS TO FORMAT TEXT*/
+.p-cls {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+/*======================================
+    PARALLAX LIKE / STATS SECTION STYLES
+=========================================*/
+
+    .colored {
+        color: #fff;
+        background-color: #006666;
+        /*background: #669a9a;*/
+        color:#CCFFCC;
+
+    }
+
+     .colored_1 {
+        color: #fff;
+        background: #006666;
+        color:#CCFFCC;
+
+    }
+
+    .colored_white{
+        background-color: whiteSmoke;
+    }
+
+    .colored_font{
+        color: #006666;
+    }
+
+    .colored_font_grey{
+        color: #666666;
+    }
+
+
+    .padded{
+        padding-top: 20px;
+        padding-bottom: 12px;
+    }
+
+    .padded_top{
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .padded_bottom{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .large_font{
+        font-size: 22;
+    }
+    .larger_font{
+        font-size: 30;
+    }
+    h1{
+        color: #006666;
+        font-size:20;
+    }
+
+/*================================
+    PORTFOLIO / WORK SECTION STYLES
+==================================*/
+.portfolio-item img:hover { /* POSTFOLIO IMAGE BIG ON HOVER */
+    cursor: pointer;
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    z-index: 1;
+}
+
+.team-member a:hover{
+    text-decoration: none;
+    color:#006666;
+}
+.team-member a{
+    text-decoration: none;
+}
+
+.proj a:hover{
+    text-decoration: none;
+    color:#006666;
+    font-size: 40px;
+}
+.proj a{
+    text-decoration: none;
+    font-size: 40px;
+}
+
+/*================================
+    CONTACT SECTION STYLE
+==================================*/
+
+
+
+
+/*================================
+    CLIENTS SECTION STYLES
+==================================*/
+#clients {
+    background-color:#f4f4f4;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+    #clients img {
+        opacity:0.5;
+        cursor:pointer;
+    }
+        #clients img:hover {
+            opacity:1;
+        }
+/*================================
+    FOOTER SECTION STYLES
+==================================*/
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: whiteSmoke;
+    color: #006666;
+}
+
+/* Footer */
+#seas-link, #harvard-link, #daslab-link{
+    background-repeat: no-repeat;
+    display:block;
+    height: 76px;
+    margin: 30px auto 25px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+#seas-link {
+    width: 263px;
+    background-size: 263px 156px;
+}
+
+#harvard-link {
+    width: 290px;
+    background-size: 290px 156px;
+}
+
+#daslab-link {
+    width: 196px;
+    background-size: 196px 156px;
+}
+
+#seas-link {
+    background-image: url(../img/seas_logo.png);
+}
+
+#harvard-link {
+    background-image: url(../img/harvard_logo.png);
+}
+
+#daslab-link {
+    background-image: url(../img/daslab_logo.png);
+}
+
+
+
+@media(min-width:992px) {
+#seas-link {
+    margin-right: 25px;
+}
+#daslab-link {
+    margin-left: 25px;
+}
+}
+@media(max-width:992px) {
+    #seas-link{
+        width: 290px;
+    }
+}
+
+#seas-link:hover{
+    background-position-y: -77px;
+}
+
+#harvard-link:hover{
+    background-position-y: -77px;
+}
+
+#daslab-link:hover{
+    background-position-y: -79px;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.footnote{
+    color:Grey;
+    text-decoration: overline;
+    font-size: 14pt;
+}
+
+.hidden{
+    visibility: 0;
+}
+
+.modal-body p{
+}
+.modal {
+    overflow-y:auto;
+    max-height:100%;
+    max-width: 100%;
+}
+
+.proj_stub_queriosity{
+    width:400px;
+
+}
+
+.proj_stub_queriosity:hover{
+    width:400px;
+    content:url("../img/queriosity_stub_hover.png");
+   /* background-image: url('./assets/img/queriosity_stub_hover.png') */
+
+}
+
+.proj_stub_ml{
+    width:400px;
+}
+.proj_stub_ml:hover{
+    width:400px;
+    content: url('../img/ml_stub_hover.png')
+}
+
+.edu_stub{
+    width:200px;
+}
+
+.heading{
+    font-size: 35px;
+    color:666666;  
+}
+
+.advisee_project{
+    font-size: 15px;
+    padding-left: 20px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
