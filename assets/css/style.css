@@ -6,6 +6,9 @@
 
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond); /* GOOGLE FREE FONTS */
 
+
+
+
 body {
     font-family: "EB Garamond", sans-serif;
     font-size: 18px;
@@ -22,17 +25,17 @@ body {
 }
 
 a{
-    color: #007777;
+    color: var(--color2);
     text-decoration: none;
 
 }
 
 a:hover{
-    color: #005555;
+    color: var(--color2-hover);
     text-decoration: none;
 }
 .info a:focus{
-    color: #006666;
+    color: var(--color2-hover);
     text-decoration: none;
     outline: none;
 }
@@ -58,20 +61,28 @@ section {
 /*================================
     NAVBAR STYLES
 ==================================*/
+:root{
+    --color0:Grey;
+    --color1:rgba(187,137, 202 ,1.0);
+    --color1:rgba(147,161, 173 ,1.0);
+    --color1:#00aaad;
+    --color2:rgba(165, 28, 48 ,1.0);
+    --color2-hover:rgba(237, 27, 52 ,1.0);
+}
+
 .navbar-default {
-    /*background-color: rgba(0, 102, 102 ,0.8);*/
-    background-color: rgba(0, 102, 102 ,1.0);
+    background-color: var(--color1);
     border-color: transparent;
 }
 
 .menu-items > li > a{
-    color:#CCFFCC !important;
+    color: var(--color2) !important;
     font-size: 25px;
     font-family: "EB Garamond"
 }
 .menu-items > li > a:hover{
-    color: #006666 !important;
-    background-color: #CCFFCC !important;
+    color: var(--color1) !important;
+    background-color: var(--color2) !important;
 }
 
 .navbar-brand {
@@ -90,6 +101,13 @@ section {
 
 /*STYLE OF BACKGROUND IMAGE*/
 
+.name{
+    color:var(--color2);
+    text-align: center;
+    font-size: 30px;
+}
+.rounded{border-radius: 50%;}
+
 
 .btn{
     margin: 0 auto;
@@ -99,14 +117,14 @@ section {
    margin-top: auto;
 }
 #home {
-    background-color: #669a9a;
+    background-color:whitesmoke; 
     /*background: #669a9a;*/
     background-attachment: fixed;
     padding: 10;
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover;
-    max-height: 400px;
+    max-height: 250px;
     text-align: center;
 }
 
@@ -128,6 +146,10 @@ section {
         font-family: 'Roboto';
         text-align: center;
     }
+
+    .heading_teaching{
+        font-size: 20px;
+    }
 /*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
 
 /*CLASS TO FORMAT TEXT*/
@@ -142,7 +164,7 @@ section {
 
     .colored {
         color: #fff;
-        background-color: #006666;
+        background-color:var(--color1);
         /*background: #669a9a;*/
         color:#CCFFCC;
 
@@ -189,7 +211,8 @@ section {
         font-size: 30;
     }
     h1{
-        color: #006666;
+
+        color:var(--color0);
         font-size:20;
     }
 
@@ -255,15 +278,15 @@ footer {
     font-size: 15px;
     text-align: center;
     font-weight: 900;
-    background-color: whiteSmoke;
-    color: #006666;
+    background-color: var(--color1);
+    color: var(--color1);
 }
 
 /* Footer */
 #seas-link, #harvard-link, #daslab-link{
     background-repeat: no-repeat;
     display:block;
-    height: 76px;
+    height: px
     margin: 30px auto 25px;
     text-indent: -9999px;
     overflow: hidden;
@@ -284,7 +307,7 @@ footer {
     background-size: 196px 156px;
 }
 
-#seas-link {
+/* #seas-link {
     background-image: url(../img/seas_logo.png);
 }
 
@@ -294,7 +317,7 @@ footer {
 
 #daslab-link {
     background-image: url(../img/daslab_logo.png);
-}
+} */
 
 
 
