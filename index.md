@@ -30,7 +30,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="http://daslab.seas.harvard.edu">
-                    <img src="assets/img/das_logo.png" alt="" class="img-responsive" />
+                    <img src="assets/img/daslab_logo_white.png" alt="" class="img-responsive" />
                 </a>
             </div>
             <div class="navbar-collapse collapse navbar-right scroll-me">
@@ -39,6 +39,7 @@
                     <li><a href="#about"> Research</a></li>
                     <!-- <li><a href="#projects"><i class="fa fa-cog fa-2x"> Projects</i></a></li> -->
                     <li><a href="#publication">Publications</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="./doc/awasay.pdf" target="_blank">Resume</a></li>
                 </ul>
@@ -53,26 +54,34 @@
             <div class="container">
                 <div class="">
                     <div>
-                         <img src="assets/img/title.png" alt="" class=" logo_main img-responsive" />
+                         <img src="assets/img/wasay.png" alt="" class="logo_main img-responsive rounded" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+
+
     <!-- About Section-->
     <section id="about" class="colored_white padded_top">
         <div class="container">
+            <div class="name"> Abdul Wasay </div>
+            <hr class="style-six">
             <div class="row text-justify">                 
                 <div class="info col-md-12">
                     <p class="large_font">
-                        I am a PhD candidate at the <a target="_blank" href="http://www.seas.harvard.edu">Harvard John A. Paulson School Engineering and Applied Sciences</a>, where I am advised by Prof. <a target="_blank" href ="http://stratos.seas.harvard.edu">Stratos Idreos</a>. 
+                        I am a PhD candidate at the <a target="_blank" href="http://www.seas.harvard.edu">Harvard John A. Paulson School of Engineering and Applied Sciences</a>, where I am advised by Prof. <a target="_blank" href ="http://stratos.seas.harvard.edu">Stratos Idreos</a>. 
                     </p>
                     <p class= "large_font">    
-                        In my research, I design techniques that accelerate machine learning and data science pipelines, specifically, adressing the bottleneck of repeated data movement. I am also interested in designing systems under novel paradigms for exploratory analysis of scientific data sets. I also spent a summer working at HPE (now Micro Focus), where I designed techniques to summarize network traffic data.
+                        I design techniques to accelerate machine learning and data science pipelines, specifically, adressing the bottleneck of repeated data movement. 
+                        Additionally, I am interested in mapping out the design space of deep neural network models to enable better design.  
                     </p>
                     <p class= "large_font">    
-                        Prior to joining Harvard, I was an undergraduate at <a target="_blank" href="http://www.lums.edu.pk"> Lahore University of Management Sciences (LUMS)</a>, where, as a part of the <a target="_blank" href="https://nsg.lums.edu.pk"> Networks and Systems Group</a>, I investigated ways to improve buffer management in data center networks. During this time, I also spent a summer at <a target="_blank" href="http://www.epfl.ch">École Polytechnique Fédérale de Lausanne (EPFL)</a> working on techniques to enhance privacy of social network graphs.
+                        Prior to joining Harvard, I was an undergraduate at <a target="_blank" href="http://www.lums.edu.pk"> Lahore University of Management Sciences (LUMS)</a>.
+                        In my undergraduate thesis, I investigated ways to improve buffer management in data center networks. 
+                        During this time, I also spent a summer at <a target="_blank" href="http://www.epfl.ch">École Polytechnique Fédérale de Lausanne (EPFL)</a> working on 
+                        techniques to enhance privacy of social network graphs.
                     </p>
                     <p class= "large_font">
                         Please see my <a href="./doc/awasay.pdf" target = "_blank" >resume </a>for more details.
@@ -87,52 +96,6 @@
             
     </section>
 
-
-    <!-- <section id="projects" class="colored_white padded_bottom">
-            <div class="container">
-                <div class="row text-justify">
-                    <div class="info col-md-12">
-                        <h1 class="heading">Projects</h1>
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-sm-2">
-                              <img src="./assets/img/queriosity_stub.png">
-                            </div>
-                            <div class="col-sm-10">
-                              <h2 class="colored_font">Queriosity<a href="../../projects/queriosity" target="_blank"> <i class="fa fa-external-link-square"> </i></a></h2>
-                        
-                            <p class= "large_font">
-                            Data science has quickly emerged as a global paradigm to extract value out of data virtually in all aspects of our lives. Queriosity is a new system that addresses two of the fundamental problems in this area, making data science more intuitive and more interactive.
-                            </p>
-                            </div>
-                          </div>
-                        </div>
-                        <br>
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-sm-2">
-                              <img src="./assets/img/ml_stub.png">
-                            </div>
-                            <div class="col-sm-10">
-                              <h2 class="colored_font">Virtual Reality Data Exploration</h2>
-                        
-                            <p class= "large_font">
-                            The increase in visual space, portability, and interactivity provided by virtual reality tools can both speed up and facilitate the process of data exploration i.e., sieving through data sets looking for patterns, trends, and anomalies. However, the speed, functionality, and ultimately applicability of such a system is linked with the data system that stores, curates, and provides data to the virtual reality front end. We investigate how to co-design data systems with virtual reality front ends.
-                            </p>
-                            </div>
-                          </div>
-                        </div>
-
-                        
-
-                        
-                        
-                    </div>
-                </div>
-                <hr class="style-six">
-            </div>
-    </section> -->
-
     <section id="publication" class="colored_white padded_bottom">
             <div class="container">
                 <div class="row text-justify">
@@ -140,32 +103,39 @@
                         <h1 class="heading">Selected Publications</h1>
                         <div class="large_font">
 
-                        	<a target="blank" href="https://arxiv.org/abs/1809.04270">
-                            	Rapid Training of Very Large Ensembles of Diverse Neural Networks.
-                            </a> <a target="blank" href="http://mndemo.mooo.com">[demo]</a> <br>
-                            <i>Abdul Wasay</i>, Yuze Liao, Stratos Idreos. <br>
+                        	<a target="blank" href="https://stratos.seas.harvard.edu/publications/mothernets-rapid-deep-ensemble-learning">
+                            	MotherNets: Rapid Deep Ensemble Learning.
+                            </a> <a target="blank" href="http://daslab.seas.harvard.edu/mothernets/">[demo]</a> <a target="blank" href="./doc/MN_poster.pdf">[poster]</a> <br>
+                            <i>Abdul Wasay</i>, Brian Hentschel, Yuze Liao, Sanyuan Chen, and Stratos Idreos. <br>
+                            MLSys, 2020. 
 
-                            Preprint, 2018. 
+                            <br><br>
+
+                            <a target="blank" href="https://stratos.seas.harvard.edu/publications/learning-data-structure-alchemy">
+                            	Learning Data Structure Alchemy. 
+                            </a> <br>
+                            Stratos Idreos, Kostas Zoumpatianos, Subarna Chatterjee, Wilson Qin, <i>Abdul Wasay</i>, Brian Hentschel, Mike Kester, Niv Dayan, Demi Guo, Minseo Kang, and Yiyou Sun <br>
+                            IEEE  <b>Data Engineering</b>, 2019.
 
                             <br><br>
 
                             <a target="blank" href="https://stratos.seas.harvard.edu/publications/periodic-table-data-structures">
                             	The Periodic Table of Data Structures. 
                             </a> <a target="blank" href="http://daslab.seas.harvard.edu/datacalculator">[website]</a> <br>
-                            Stratos Idreos, Konstantinos Zoumpatianos, Manos Athanassoulis, Niv Dayan, Brian Hentschel, Michael S. Kester, Demi Guo, Lukas Maas, Wilson Qin, <i>Abdul Wasay</i>, Yiyou Sun. <br>
+                            Stratos Idreos, Konstantinos Zoumpatianos, Manos Athanassoulis, Niv Dayan, Brian Hentschel, Michael S. Kester, Demi Guo, Lukas Maas, Wilson Qin, <i>Abdul Wasay</i>, and Yiyou Sun. <br>
                             IEEE  <b>Data Engineering</b>, 2018.
                             <br><br>
 
                             <a target="blank" href="https://stratos.seas.harvard.edu/publications/data-canopy-accelerating-exploratory-statistical-analysis">
                              Data Canopy: Accelerating Exploratory Statistical Analysis. 
-                            </a> <a target="blank" href="http://daslab.seas.harvard.edu/data-canopy">[website]</a> <br>
-                            <i>Abdul Wasay</i>, Xinding Wei, Niv Dayan, Stratos Idreos. <br>
+                            </a> <a target="blank" href="http://daslab.seas.harvard.edu/data-canopy">[website]</a> <a target="blank" href="./doc/DC_poster.pdf">[poster]</a> <br>
+                            <i>Abdul Wasay</i>, Xinding Wei, Niv Dayan, and Stratos Idreos. <br>
                             ACM <strong>SIGMOD</strong>, 2017.
                             <br><br>
                             <a target="blank" href="https://stratos.seas.harvard.edu/publications/queriosity-automated-data-exploration"> 
                            	 Queriosity: Automated Data Exploration.
-                        	</a> <a target="blank" href="http://daslab.seas.harvard.edu/queriosity">[website]</a> <br>
-                            <i>Abdul Wasay</i>, Manos Athanassoulis, Stratos Idreos. <br>
+                        	</a> <a target="blank" href="http://daslab.seas.harvard.edu/queriosity">[website]</a> <a target="blank" href="./doc/QU_poster.png">[poster]</a> <br>
+                            <i>Abdul Wasay</i>, Manos Athanassoulis, and Stratos Idreos. <br>
                             IEEE <strong>Big Data</strong>, 2015.
                             <br><br>
                             <a target="blank" href="https://dl.acm.org/citation.cfm?doid=2619239.2631462">Rethinking Buffer Management in Data Center Networks. <br>
@@ -178,58 +148,42 @@
             </div>
     </section>
 
-   <!--  <section id="advising" class="colored_white padded_bottom">
-            <div class="container">
-                <div class="row text-left">
-                    <div class="info col-md-12">
-                        <h1 class="heading">Advising</h1>
-                        <div class="large_font">
+    <section id="teaching" class="colored_white padded_bottom">
+        <div class="container">
+            <div class="row text-justify">
+                <div class="info col-md-12">
+                    <h1 class="heading">Teaching Experience</h1>
+                    
+                    I thoroughly enjoy teaching. During my PhD, I have designed and taught courses both at Harvard University and 
+                    <a target="_blank" href="http://www.ashesi.edu.gh"> Ashesi University,</a> where I was a visiting 
+                    faculty through the Archer-Cornfield Teaching Fellowship. 
 
-                        <div class="large_font">
-                        <a href="http://www.dhruvgupta.me"target="_blank">Dhruv Gupta</a> | Harvard College
-                        <div class="advisee_project"> Project: Interactive Data Exploration Front Ends</div>
-                        </div>
+                    <br>
+                    <br>
 
-                        <div class="large_font">
-                        <a href="https://www.linkedin.com/in/xinding-wei-8905a1a3"target="_blank">Xingding Wei</a> | Tsinghua University
-                        <div class="advisee_project">Project: Accelerating Statistical Data Analysis</div>
-                        </div>
-
-                        <div class="large_font">
-                        <a href="https://littlepig2013.github.io/"target="_blank">Zichen Zhu</a> | Tsinghua University and <a href="http://yash-bolisetty.github.io/"target="_blank">Yash Bolisetty</a> | TJHST
-                        <div class="advisee_project"> Project: Reinforcement Learning to Visualize Data </div>
-                        </div>
-                        <div class="large_font">
-                        <a href="https://www.linkedin.com/in/恒-常-61a67898"target="_blank">Heng Chang</a> | Tsinghua University and <a href="http://srikrishnamurthy.github.io/"target="_blank">Srinidhi Krishnamurthy</a> | TJHST
-                        <div class="advisee_project"> Project: Virtual Reality Front Ends for Data Visualization </div>
-
-                        <p class="large_font">I also serve as a Resident Tutor at <a href="http://quincy.harvard.edu" target="_blank">Quincy House</a>, Harvard College.</p>
-                        
-                        <h2 class="colored_font_grey">Past</h2>
-
-                        <div class="large_font colored_font_grey" >
-                        <a href="http://www.tarikmoon.com/"target="_blank">Tarik A. Moon</a> | Harvard College | Now at a stealth startup
-                        <div class="advisee_project">Project: Modern Hardware Machine Learning</div>
-                        </div>
-
-                        <div class="large_font colored_font_grey">
-                        <a href="https://www.linkedin.com/in/nithin-tumma-586a5653"target="_blank">Nithin Tumma</a> | Harvard College | Co-founder at Side
-                        <div class="advisee_project">Project: Sketching Stratgies for Data Exploration</div>
-                        </div>
-
+                    <div class="">
+                        <span class="heading_teaching"> Harvard University</span> <br>
+                            <i> Course Instructor </i> at CSCI S-165: Data Systems and Machine Learning | Summer 2019<br><br>
+                            <span class="heading_teaching"> Ashesi University </span> <br>
+                            <i> Course Instructor </i> at CS402: The Scientist and the Machine, CS313: Intermediate Programming, and CS460: Data Systems and Machine Learning 
+                            | Fall 2019 and Spring 2020<br><br>
+                            <span class="heading_teaching"> Harvard University </span><br>
+                            <i>Teaching Fellow </i> at CS165: Data Systems, CS265: Big Data Systems, and ac297r: Capstone Projects | 2015 through 2019
                     </div>
                 </div>
-                <hr class="style-six">
             </div>
-    </section> -->
+            <hr class="style-six">
+        </div>
+    </section>
+
 
     <section id="contact" class="colored_white padded_bottom">
             <div class="container">
                 <div class="row text-justify">
                     <div class="info col-md-12">
                         <h1 class="heading">Contact</h1>
-                        <p class="large_font"><span class="colored_font">Email</span> <br> awasay [at] seas.harvard.edu</p>
-                        <p class="large_font"><span class="colored_font">Office</span> <br> 117 Maxwell Dworkin,<br> 33 Oxford Street,<br> Cambridge, MA 02138</p>
+                        <p class="large_font"><span class="heading_teaching">Email</span> <br> awasay [at] seas.harvard.edu</p>
+                        <p class="large_font"><span class="heading_teaching">Office</span> <br> 117 Maxwell Dworkin,<br> 33 Oxford Street,<br> Cambridge, MA 02138</p>
                         
                     </div>
                 </div>
@@ -240,19 +194,7 @@
 
     <footer class="text-center">
         <div class=" row footer-above colored">
-            <div class="container">
-                <div class="row">
-                    <div class=" col-md-4">
-                        <a id="seas-link" href="http://seas.harvard.edu" target="_blank" title="Harvard SEAS"></a>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <a id="harvard-link" href="http://www.harvard.edu" target="_blank" title="Harvard University">Harvard University</a>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <a id="daslab-link" href="http://daslab.seas.harvard.edu" target="_blank" title="Harvard DASlab">Harvard DASlab</a>
-                    </div>
-                </div>
-            </div>
+            
         </div>
         <!-- <div class="colored_1 row">
             <div class="container">
