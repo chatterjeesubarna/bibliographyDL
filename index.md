@@ -108,7 +108,7 @@
                             	MotherNets: Rapid Deep Ensemble Learning.
                             </a> <a target="blank" href="http://daslab.seas.harvard.edu/mothernets/">[demo]</a> <a target="blank" href="./doc/MN_poster.pdf">[poster]</a> <br>
                             <i>Abdul Wasay</i>, Brian Hentschel, Yuze Liao, Sanyuan Chen, and Stratos Idreos. <br>
-                            MLSys, 2020. 
+                            Conference on Machine Learning and Systems <b>MLSys</b>, 2020. 
 
                             <br><br>
 
@@ -116,7 +116,7 @@
                             	Learning Data Structure Alchemy. 
                             </a> <br>
                             Stratos Idreos, Kostas Zoumpatianos, Subarna Chatterjee, Wilson Qin, <i>Abdul Wasay</i>, Brian Hentschel, Mike Kester, Niv Dayan, Demi Guo, Minseo Kang, and Yiyou Sun <br>
-                            IEEE  Data Engineering, 2019.
+                            Bulletin of the IEEE Computer Society Technical Committee on <b>Data Engineering</b>, 2019.
 
                             <br><br>
 
@@ -124,24 +124,24 @@
                             	The Periodic Table of Data Structures. 
                             </a> <a target="blank" href="http://daslab.seas.harvard.edu/datacalculator">[website]</a> <br>
                             Stratos Idreos, Konstantinos Zoumpatianos, Manos Athanassoulis, Niv Dayan, Brian Hentschel, Michael S. Kester, Demi Guo, Lukas Maas, Wilson Qin, <i>Abdul Wasay</i>, and Yiyou Sun. <br>
-                            IEEE  Data Engineering, 2018.
+                            Bulletin of the IEEE Computer Society Technical Committee on <b>Data Engineering</b>, 2018.
                             <br><br>
 
                             <a target="blank" href="https://stratos.seas.harvard.edu/publications/data-canopy-accelerating-exploratory-statistical-analysis">
                              Data Canopy: Accelerating Exploratory Statistical Analysis. 
                             </a> <a target="blank" href="http://daslab.seas.harvard.edu/data-canopy">[website]</a> <a target="blank" href="./doc/DC_poster.pdf">[poster]</a> <br>
                             <i>Abdul Wasay</i>, Xinding Wei, Niv Dayan, and Stratos Idreos. <br>
-                            ACM SIGMOD, 2017.
+                            ACM International Conference on Management of Data <b>SIGMOD</b>, 2017.
                             <br><br>
                             <a target="blank" href="https://stratos.seas.harvard.edu/publications/queriosity-automated-data-exploration"> 
                            	 Queriosity: Automated Data Exploration.
                         	</a> <a target="blank" href="http://daslab.seas.harvard.edu/queriosity">[website]</a> <a target="blank" href="./doc/QU_poster.png">[poster]</a> <br>
                             <i>Abdul Wasay</i>, Manos Athanassoulis, and Stratos Idreos. <br>
-                            IEEE Big Data, 2015.
+                            IEEE International Congress on <b>BigData</b>, 2015.
                             <br><br>
                             <a target="blank" href="https://dl.acm.org/citation.cfm?doid=2619239.2631462">Rethinking Buffer Management in Data Center Networks. <br>
                             </a> Aisha Mushtaq, Asad Khalid Ismail, <i>Abdul Wasay</i>, Bilal Mahmood, Ihsan Ayyub Qazi, and Zartash Afzal Uzmi. <br>
-                            ACM SIGCOMM, 2014.
+                            ACM International Conference on Data Communications <b>SIGCOMM</b>, 2014.
                         </div>
                     </div>
                 </div>
