@@ -71,7 +71,8 @@
             <div class="row text-justify">                 
                 <div class="info col-md-12">
                     <p class="large_font">
-                        I am a PhD candidate at the <a target="_blank" href="http://www.seas.harvard.edu">Harvard John A. Paulson School of Engineering and Applied Sciences</a>, where I am advised by Prof. <a target="_blank" href ="http://stratos.seas.harvard.edu">Stratos Idreos</a>. 
+                        I am a PhD candidate at the <a target="_blank" href="http://www.seas.harvard.edu">Harvard John A. Paulson School of Engineering and Applied Sciences</a>, 
+                        where I am advised by Prof. <a target="_blank" href ="http://stratos.seas.harvard.edu">Stratos Idreos</a>. I expect to graduate by June 2021. 
                     </p>
                     <p class= "large_font">    
                         I design techniques to accelerate machine learning and data science pipelines, specifically, adressing the bottleneck of repeated data movement. 
