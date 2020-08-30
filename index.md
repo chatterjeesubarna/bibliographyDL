@@ -115,7 +115,7 @@
                             	Learning Data Structure Alchemy. 
                             </a> <br>
                             Stratos Idreos, Kostas Zoumpatianos, Subarna Chatterjee, Wilson Qin, <i>Abdul Wasay</i>, Brian Hentschel, Mike Kester, Niv Dayan, Demi Guo, Minseo Kang, and Yiyou Sun <br>
-                            IEEE  <b>Data Engineering</b>, 2019.
+                            IEEE  Data Engineering, 2019.
 
                             <br><br>
 
@@ -123,24 +123,24 @@
                             	The Periodic Table of Data Structures. 
                             </a> <a target="blank" href="http://daslab.seas.harvard.edu/datacalculator">[website]</a> <br>
                             Stratos Idreos, Konstantinos Zoumpatianos, Manos Athanassoulis, Niv Dayan, Brian Hentschel, Michael S. Kester, Demi Guo, Lukas Maas, Wilson Qin, <i>Abdul Wasay</i>, and Yiyou Sun. <br>
-                            IEEE  <b>Data Engineering</b>, 2018.
+                            IEEE  Data Engineering, 2018.
                             <br><br>
 
                             <a target="blank" href="https://stratos.seas.harvard.edu/publications/data-canopy-accelerating-exploratory-statistical-analysis">
                              Data Canopy: Accelerating Exploratory Statistical Analysis. 
                             </a> <a target="blank" href="http://daslab.seas.harvard.edu/data-canopy">[website]</a> <a target="blank" href="./doc/DC_poster.pdf">[poster]</a> <br>
                             <i>Abdul Wasay</i>, Xinding Wei, Niv Dayan, and Stratos Idreos. <br>
-                            ACM <strong>SIGMOD</strong>, 2017.
+                            ACM SIGMOD, 2017.
                             <br><br>
                             <a target="blank" href="https://stratos.seas.harvard.edu/publications/queriosity-automated-data-exploration"> 
                            	 Queriosity: Automated Data Exploration.
                         	</a> <a target="blank" href="http://daslab.seas.harvard.edu/queriosity">[website]</a> <a target="blank" href="./doc/QU_poster.png">[poster]</a> <br>
                             <i>Abdul Wasay</i>, Manos Athanassoulis, and Stratos Idreos. <br>
-                            IEEE <strong>Big Data</strong>, 2015.
+                            IEEE Big Data, 2015.
                             <br><br>
                             <a target="blank" href="https://dl.acm.org/citation.cfm?doid=2619239.2631462">Rethinking Buffer Management in Data Center Networks. <br>
                             </a> Aisha Mushtaq, Asad Khalid Ismail, <i>Abdul Wasay</i>, Bilal Mahmood, Ihsan Ayyub Qazi, and Zartash Afzal Uzmi. <br>
-                            ACM <strong>SIGCOMM</strong>, 2014.
+                            ACM SIGCOMM, 2014.
                         </div>
                     </div>
                 </div>
