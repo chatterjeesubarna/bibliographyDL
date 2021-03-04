@@ -1,0 +1,22 @@
+{
+  
+    "name": "Tradeoffs",
+    "type": "static, zoomable",
+    "children": [
+      {
+        "name": "Accuracy vs. Time",
+        "children": [ ],
+        "url": "leaf.json"
+      },
+      {
+        "name": "Optimization vs. Time",
+        "children": [ ],
+        "url": "leaf.json"
+      },
+      {
+        "name": "Time vs. Memory",
+        "children": [ ],
+        "url": "leaf.json"
+      }
+    ]
+  }

@@ -1,0 +1,81 @@
+body {
+  background: #EEE;
+}
+svg {
+  width: 900px;
+  height: 900px;
+  border: thin solid red;
+}
+.node {
+  fill: white;
+  stroke: #3d8b40;
+  transition: all 0.5s;
+}
+.node .label {
+  stroke: none;
+  fill: #4caf50;
+  font: 28px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.node.node-root {
+  fill: #bddbbf;
+  stroke: none;
+}
+.node.depth-1 {
+  stroke-width: 2px;
+}
+.node.depth-1:hover {
+  stroke-width: 10px;
+}
+.node.depth-1 .label {
+  font-size: 28px;
+}
+.node.depth-2 {
+  stroke-width: 0.5px;
+}
+.node.depth-2:hover {
+  stroke-width: 2.5px;
+}
+.node.depth-2 .label {
+  font-size: 12px;
+}
+.node.depth-3 {
+  stroke-width: 0.2px;
+}
+.node.depth-3:hover {
+  stroke-width: 1px;
+}
+.node.depth-3 .label {
+  font-size: 4px;
+}
+.label {
+  text-anchor: middle;
+  transition: fill 0.5s;
+  /*text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;*/
+}
+.node.node--root {
+  /*fill: #4caf50;*/
+  opacity: 0.3;
+  stroke: none;
+}
+.node.node--root:hover {
+  opacity: 0.6;
+}
+.x2 {
+  stroke: blue;
+  fill: none;
+}
+.x10 {
+  stroke: blue;
+  fill: none;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.viz {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}

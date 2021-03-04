@@ -1,0 +1,30 @@
+{
+  "name": "Root",
+  "children": [
+    {
+      "name": "Responsible DL",
+      "children": [ ],
+      "url": "json/intro.json",
+      "type": "static, zoomable"
+    },
+    {
+      "name": "DL in Data Systems",
+      "children": [ ],
+      "url": "json/intro.json",
+      "type": "static, zoomable"
+    },
+    {
+      "name": "Tradeoffs in DL",
+      "children": [ ],
+      "url": "json/tradeoff.json",
+      "type": "static, zoomable"
+    },
+    {
+      "name": "Introduction",
+      "children": [ ],
+      "url": "json/intro.json",
+      "type": "static, zoomable"
+    }
+
+  ]
+}
