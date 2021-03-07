@@ -11,17 +11,17 @@
       {
         "name": "Lecun2015",
         "children": [ ],
-        "link": "https://www.nature.com/articles/nature14539"
+        "link": "https://www.google.com/?client=safari"
       },
       {
         "name": "Goodfellow2016",
         "children": [ ],
-        "link": "https://www.deeplearningbook.org/front_matter.pdf"
+        "url": "https://www.deeplearningbook.org/front_matter.pdf"
       },
       {
-        "name": "Zagoruyko2016",
+        "name": "A4",
         "children": [ ],
-        "link": "http://www.bmva.org/bmvc/2016/papers/paper087/paper087.pdf"
+        "url": "http://www.bmva.org/bmvc/2016/papers/paper087/paper087.pdf"
       },
       {
         "name": "A5",
