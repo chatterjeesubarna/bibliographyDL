@@ -6,22 +6,22 @@
       {
         "name": "Vu2019",
         "children": [ ],
-        "url": "https://dl.acm.org/doi/pdf/10.1145/3299869.3300104"
+        "link": "https://dl.acm.org/doi/pdf/10.1145/3299869.3300104"
       },
       {
         "name": "Lecun2015",
         "children": [ ],
-        "url": "https://www.nature.com/articles/nature14539"
+        "link": "https://www.nature.com/articles/nature14539"
       },
       {
-        "name": "A3",
+        "name": "Goodfellow2016",
         "children": [ ],
-        "url": "leaf.json"
+        "link": "https://www.deeplearningbook.org/front_matter.pdf"
       },
       {
-        "name": "A4",
+        "name": "Zagoruyko2016",
         "children": [ ],
-        "url": "leaf.json"
+        "link": "http://www.bmva.org/bmvc/2016/papers/paper087/paper087.pdf"
       },
       {
         "name": "A5",
