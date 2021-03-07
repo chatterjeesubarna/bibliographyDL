@@ -20,7 +20,7 @@
       "type": "static, zoomable"
     },
     {
-      "name": "Introductionn",
+      "name": "Introduction",
       "children": [ ],
       "url": "json/intro.json",
       "type": "static, zoomable"

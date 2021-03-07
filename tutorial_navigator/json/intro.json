@@ -4,14 +4,14 @@
     "type": "static, zoomable",
     "children": [
       {
-        "name": "",
+        "name": "Vu2019",
         "children": [ ],
-        "url": "leaf.json"
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3299869.3300104"
       },
       {
-        "name": "A2",
+        "name": "Lecun2015",
         "children": [ ],
-        "url": "leaf.json"
+        "url": "https://www.nature.com/articles/nature14539"
       },
       {
         "name": "A3",
